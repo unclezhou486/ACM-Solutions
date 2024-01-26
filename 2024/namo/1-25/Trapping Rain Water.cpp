@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define int long long
+#define IT set<int>::iterator
 using namespace std;
 
 void solve(){
@@ -80,20 +81,26 @@ void solve(){
             //cout<<ans<<'\n';
             //cout<<ans<<'\n';
             it++;
-            vector<set<int>::iterator> vec;
+            IT itl,itr;
+            itl=it;
+            //itl++;
+            itr=it;
             while(val1[*it]<=a[x]){
                 ans-=len1[*it]*val1[*it];
                 //cout<<ans<<'\n';
-                vec.push_back(it);
+                //vec.push_back(it);
+                //itr=it;
                 it++;
+                itr=it;
             }
             it--;
             int rr=*it+len1[*it]-1;
-            for(int i=0;i<vec.size();i++){
-                s1.erase(vec[i]);
-            }
+            //itr++;
+            s1.erase(itl,itr);
+            //for(int i=0;i<vec.size();i++){
+                //s1.erase(vec[i]);
+            //}
             //cout<<*it<<'\n';
-            
             //cout<<rr<<'\n';
             s1.insert(x);
             len1[x]=rr-x+1;
@@ -116,19 +123,27 @@ void solve(){
 
             //cout<<ans<<'\n';
             it++;
-            vector<set<int>::iterator> vec;
+            IT itl,itr;
+            itl=it;
+            //itl++;
+            itr=it;
+            //vector<set<int>::iterator> vec;
             while(val2[*it]<=b[y]){
                 ans-=len2[*it]*val2[*it];
                 //cout<<ans<<'\n';
-                vec.push_back(it);
+                //vec.push_back(it);
+                //itr=it;
                 it++;
+                itr=it;
             }
             it--;
+            //itr++;
             int rr=*it+len2[*it]-1;
-            for(int i=0;i<vec.size();i++){
-                s2.erase(vec[i]);
-            }
-            
+            s2.erase(itl,itr);
+            //for(int i=0;i<vec.size();i++){
+            //    s2.erase(vec[i]);
+            //}
+            //
             s2.insert(y);
             len2[y]=rr-y+1;
             val2[y]=b[y];
