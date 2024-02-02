@@ -2,33 +2,57 @@
 
 using namespace std;
 
-int n;
+const int N=1e3+10;
 
-int a[100000];
+int n,m;
+int a[N][N];
+bool v[N][N];
+
+int dx[4]={1,1,-1,-1};
+int dy[4]={1,-1,1,-1};
+int ansb,ansp;
 
 int main(){
-    cin>>n;
+    ios::sync_with_stdio(0);
+    cin.tie(0),cout.tie(0);
+    cin>>n>>m;
     for(int i=1;i<=n;i++){
-        cin>>a[i];
-    }
-    bool fl=0;
-    int res;
-    while(!fl){
-        fl=1;
-        res++;
-        for(int i=1;i<n;i++){
-            if(a[i+1]<a[i]){
-                swap(a[i+1],a[i]);
-            }
-        }
-        for(int i=n-1;i>=1;i--){
-            if(a[i+1]<a[i]){
-                swap(a[i+1],a[i]);
-            }
-        }
-        for(int i=0;i<n;i++){
-            if(a[i+1]<a[i]) fl=0;
+        for(int j=1;j<=m;j++){
+            char c;
+            cin>>c;
+            if(c=='#') a[i][j]=1;
+            else a[i][j]=0;
         }
     }
-    cout<<res<<'\n';
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=m;j++){
+            if(v[i][j]) continue;
+            for(int k=0;k<4;k++){
+                bool fl=check(i,j,dx[k],dy[k]);
+                if(fl){
+                    cover(i,j,dx[k],dy[k]);
+                    ansb++;
+                    break;
+                }
+            }
+            if(v[i][j]) continue;
+            for(int k=0;k<4;k++){
+                bool fl=check1(i,j,dx[k],dy[k]);
+                if(fl){
+                    cover1(i,j,dx[k],dy[k]);
+                    ansp++;
+                    break;
+                }
+            }
+            if(v[i][j]) continue;
+            for(int k=0;k<4;k++){
+                bool fl=check2(i,j,dx[k],dy[k]);
+                if(fl){
+                    cover2(i,j,dx[k],dy[k]);
+                    ansp++;
+                    break;
+                }
+            }
+        }
+    }
 }
