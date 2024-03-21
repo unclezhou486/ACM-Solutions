@@ -69,10 +69,6 @@ bool check(int x){
         if(query(p[i],k,s[i-1])) return 1;
     }
     return 0;
-    //for(int i=1;i<=n;i++){
-    //    if(query(p[i],k,s[i-1])) return 1;
-    //}
-    //return 0;
 }
 
 void solve(){
