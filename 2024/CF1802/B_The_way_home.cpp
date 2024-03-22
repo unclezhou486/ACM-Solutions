@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define int long long
 #define PII pair<long long ,int>
 #define PIII pair<pair<long long,long long > ,int>
 using namespace std;
@@ -27,7 +26,7 @@ void solve(){
         cin>>x>>y>>v;
         ne[x].push_back({y,v});
     }
-    priority_queue<PIII,vector<PIII >,greater<PIII > > q;
+    priority_queue<PIII,vector<PIII >,greater<PIII > > q;// dp 
     for(int i=1;i<=n;i++) v1[i]=0;
     q.push({dp[1],1ll});
     while(q.size()){ //
@@ -39,7 +38,7 @@ void solve(){
             v2[i]=0;
             d2[i]=INF;
         }
-        priority_queue<PII,vector<PII >,greater<PII > > qq;
+        priority_queue<PII,vector<PII >,greater<PII > > qq;// dis 
         qq.push({0ll,pos});
         d2[pos]=0;
         while(qq.size()){
