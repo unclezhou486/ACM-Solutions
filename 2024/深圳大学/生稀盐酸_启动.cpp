@@ -10,7 +10,6 @@ int e[N<<1],ne[N<<1],h[N],idx;
 int f[N];
 int a[N],b[N];
 
-map<pair<int,int>,int> ma;
 void add(int x,int y){
     e[++idx]=y,ne[idx]=h[x],h[x]=idx;
 }
@@ -25,8 +24,8 @@ void dfs(int x,int fa){
 }
 
 void solve(){
-    ma.clear();
     int n;
+    int ans=0;
     cin>>n;
     for(int i=1;i<n;i++){
         int u,v;
@@ -36,11 +35,11 @@ void solve(){
     }
     dfs(1,1);
     queue<pair<int,int> > q;
-    vector<pair<int,int> > vec;
+    vector<int > vec;
     for(int i=1;i<=n;i++){
         cin>>a[i];
         b[i]=0;
-        if(a[i]<0) q.push({i,0}),b[i]=a[i];
+        if(a[i]<0) q.push({i,0});
     }
     int res=0;
     while(q.size()){
@@ -49,31 +48,23 @@ void solve(){
         int x=pos.first;
         int dep=pos.second;
         if(dep!=res){
-            set<int> se;
-            for(auto [ver,val]:vec){
-                b[ver]+=val;
-                se.insert(ver);
-            }
-            for(auto ver:se){
+            for(auto ver:vec){
                 if(abs(b[ver])>a[ver]){
                     b[ver]+=a[ver];
-                    a[ver]=0;
+                    a[ver]=b[ver];
                 }
-                else{
-                    b[ver]=0;
-                }
+                b[ver]=0;
             }
             vec.clear();
             res=dep;
         }
-        if(x==1) continue;
-        if(ma[{x,dep}]) continue;
-        ma[{x,dep}]=1;
-        //cout<<x<<' '<<b[x]<<' '<<dep<<'\n';
-        if(b[x]<0)vec.push_back({f[x],b[x]});
-        q.push({f[x],dep+1});b[x]=0;
+        if(x==1) {ans=max(ans,-a[1]),a[1]=0;continue;}
+        if(a[x]<0){
+            if(b[f[x]]) {b[f[x]]+=a[x];a[x]=0;continue;}
+            else b[f[x]]=a[x],vec.push_back(f[x]),q.push({f[x],dep+1});a[x]=0;
+        }
     }
-    cout<<-b[1]<<'\n';
+    cout<<ans<<'\n';
     for(int i=1;i<=n;i++){
         h[i]=0;
     }
