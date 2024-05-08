@@ -55,6 +55,8 @@
 
 [luogu-P1972](https://www.luogu.com.cn/problem/P1972)典题，主席树/树状数组离线/莫队[code-online](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P1972%20%5BSDOI2009%5D%20HH%E7%9A%84%E9%A1%B9%E9%93%BE(%E4%B8%BB%E5%B8%AD%E6%A0%91).cpp) /[code-not online](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P1972%20%5BSDOI2009%5D%20HH%E7%9A%84%E9%A1%B9%E9%93%BE(%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84%E7%A6%BB%E7%BA%BF).cpp)
 
+[GYM104849](https://codeforces.com/gym/104849/problem/E) 可持久化线段树加逆序对，场上思路是一下就出来了，就是我对于这个算法运用不熟练（完全没有想到要怎么用这个算法），但是队友ov_vo实力在线，听完我的思路一下就打出来了。 让我更深刻的认识到这个算法该用的地方。
+
 
 ## 图论
 
