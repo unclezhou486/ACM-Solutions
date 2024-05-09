@@ -74,6 +74,12 @@
 
 [GYM104076J](https://codeforces.com/gym/104076/problem/J) 有点卡常[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-23/J_Skills.cpp)
 
+### 背包
+
+[GYM103688G](https://codeforces.com/gym/103688/problem/G) 背包求方案数，思考的时候可以用断环成链的方式辅助一下？
+
+
+
 ### 决策单调性优化dp
 
 
@@ -98,3 +104,9 @@
 ## 猜结论
 
 [GYM104901A](https://codeforces.com/gym/104901/problem/A)，看着像拓号匹配的东西我就头疼[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-25/Many%20Many%20Heads.cpp)
+
+[LuoguP3951](https://www.luogu.com.cn/problem/P3951)，打表找规律好题，当然还可以用数论做，但是我不会。
+
+## 交互
+
+[CF1713D](https://codeforces.com/contest/1713/problem/D) 带点贪心的交互？想了一会时间，感觉也蛮好玩的。
