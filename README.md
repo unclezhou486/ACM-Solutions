@@ -6,6 +6,14 @@
 
 ## 基础算法
 
+### 模拟
+
+[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)
+
+[牛客80186B](https://ac.nowcoder.com/acm/contest/80186/B)需要注意到题目中的k的范围。
+
+[牛客82401D](https://ac.nowcoder.com/acm/contest/82401/D)题解说是可以运用二进制的相关知识，但是我是模拟的。
+
 ### 搜索
 
 打OI的时候很喜欢暴力加剪枝。 打ICPC的时候有点不太敢了，不太熟。
@@ -49,7 +57,7 @@
 
 有时候也许可以尝试转为使用离线操作？
 
-[luogu-P3919](https://www.luogu.com.cn/problem/P3919)模板题。EI有一种离线做法。[code-model](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-27/P3919%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91%201%EF%BC%88%E6%A8%A1%E7%89%88%E5%81%9A%E6%B3%95%EF%BC%89.cpp)[code-EI](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-27/P3919%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91%201%EF%BC%88EI%E6%8F%90%E5%87%BA%E7%9A%84%E7%A6%BB%E7%BA%BF%E5%81%9A%E6%B3%95%EF%BC%89.cpp)
+[luogu-P3919](https://www.luogu.com.cn/problem/P3919)模板题。EI有一种离线做法。[code-model](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-27/P3919%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91%201%EF%BC%88%E6%A8%A1%E7%89%88%E5%81%9A%E6%B3%95%EF%BC%89.cpp)/[code-EI](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-27/P3919%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91%201%EF%BC%88EI%E6%8F%90%E5%87%BA%E7%9A%84%E7%A6%BB%E7%BA%BF%E5%81%9A%E6%B3%95%EF%BC%89.cpp)
 
 [luogu-P3834](https://www.luogu.com.cn/problem/P3834)可持久化线段树求区间第K大模板题。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P3834%20%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91%202.cpp)
 
@@ -106,6 +114,14 @@
 [GYM104901A](https://codeforces.com/gym/104901/problem/A)，看着像拓号匹配的东西我就头疼[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-25/Many%20Many%20Heads.cpp)
 
 [LuoguP3951](https://www.luogu.com.cn/problem/P3951)，打表找规律好题，当然还可以用数论做，但是我暂时只会找规律。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/train/2024-05-09/B_%E5%B0%8F%E5%87%AF%E7%9A%84%E7%96%91%E6%83%91_%E8%93%9D%E6%A1%A5%E6%9D%AF_2013_%E7%9C%81_%E4%B9%B0%E4%B8%8D%E5%88%B0%E7%9A%84%E6%95%B0%E7%9B%AE.cpp)
+
+## 数论
+
+数论我只会gcd和快速幂
+
+### 乘法逆元
+
+[牛客82401C](https://ac.nowcoder.com/acm/contest/82401/C)简单的求期望
 
 
 
