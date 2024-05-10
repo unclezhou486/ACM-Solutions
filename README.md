@@ -8,11 +8,11 @@
 
 ### 模拟
 
-[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)
+[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)/[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E4%BA%94%E4%B8%80(1)/Stammering_Chemists.cpp)
 
-[牛客80186B](https://ac.nowcoder.com/acm/contest/80186/B)需要注意到题目中的k的范围。
+[牛客80186B](https://ac.nowcoder.com/acm/contest/80186/B)需要注意到题目中的k的范围。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E4%BA%94%E4%B8%80(1)/Coffee_Chicken.cpp)
 
-[牛客小白93D](https://ac.nowcoder.com/acm/contest/82401/D)题解说是可以运用二进制的相关知识，但是我是模拟的。
+[牛客小白93D](https://ac.nowcoder.com/acm/contest/82401/D)题解说是可以运用二进制的相关知识，但是我是模拟的。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%81.cpp)
 
 ### 搜索
 
@@ -39,7 +39,7 @@
 
 ### 差分
 
-[牛客小白93E](https://ac.nowcoder.com/acm/contest/82401/E) 如果刚开始考虑分块，那么注意到只需要维护一些区间的前后缀和和数的个数即可计算合并区间造成的答案。接下来发现这些需要维护的值都可以用前缀和维护。因此我们可以将求答案的过程转为上面合并操作的逆过程，计算出来即可。
+[牛客小白93E](https://ac.nowcoder.com/acm/contest/82401/E) 如果刚开始考虑分块，那么注意到只需要维护一些区间的前后缀和和数的个数即可计算合并区间造成的答案。接下来发现这些需要维护的值都可以用前缀和维护。因此我们可以将求答案的过程转为上面合并操作的逆过程，计算出来即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E5%A5%8F%E7%BB%9D.cpp)
 
 
 ## 数据结构
@@ -53,7 +53,7 @@
 
 喜欢暴力。
 
-[GYM104821M](https://codeforces.com/gym/104821/problem/M)可以说感觉就是珂朵莉树的操作。（或者说分块？）
+[GYM104821M](https://codeforces.com/gym/104821/problem/M)可以说感觉就是珂朵莉树的操作。（或者说分块？）[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-25/Trapping%20Rain%20Water.cpp)
 
 ### 可持久化数据结构
 
@@ -67,7 +67,7 @@
 
 [luogu-P1972](https://www.luogu.com.cn/problem/P1972)典题，主席树/树状数组离线/莫队[code-online](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P1972%20%5BSDOI2009%5D%20HH%E7%9A%84%E9%A1%B9%E9%93%BE(%E4%B8%BB%E5%B8%AD%E6%A0%91).cpp) /[code-not online](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P1972%20%5BSDOI2009%5D%20HH%E7%9A%84%E9%A1%B9%E9%93%BE(%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84%E7%A6%BB%E7%BA%BF).cpp)
 
-[GYM104849](https://codeforces.com/gym/104849/problem/E) 可持久化线段树加逆序对，场上思路是一下就出来了，就是我对于这个算法运用不熟练（完全没有想到要怎么用这个算法），但是队友ov_vo实力在线，听完我的思路一下就打出来了。 让我更深刻的认识到这个算法该用的地方。
+[GYM104849](https://codeforces.com/gym/104849/problem/E) 可持久化线段树加逆序对，场上思路是一下就出来了，就是我对于这个算法运用不熟练（完全没有想到要怎么用这个算法），但是队友ov_vo实力在线，听完我的思路一下就打出来了。 让我更深刻的认识到这个算法该用的地方。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/GYM104849/E_Incredibly_Cute_Penguin_Chicks.cpp)
 
 
 ## 图论
@@ -125,7 +125,9 @@
 
 ### 乘法逆元
 
-[牛客82401C](https://ac.nowcoder.com/acm/contest/82401/C)简单的求期望
+[牛客82401C](https://ac.nowcoder.com/acm/contest/82401/C)简单的求期望[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E8%80%81%E8%99%8E%E6%9C%BA.cpp)
+
+
 
 
 
