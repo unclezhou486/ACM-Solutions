@@ -12,7 +12,7 @@
 
 [牛客80186B](https://ac.nowcoder.com/acm/contest/80186/B)需要注意到题目中的k的范围。
 
-[牛客82401D](https://ac.nowcoder.com/acm/contest/82401/D)题解说是可以运用二进制的相关知识，但是我是模拟的。
+[牛客小白93D](https://ac.nowcoder.com/acm/contest/82401/D)题解说是可以运用二进制的相关知识，但是我是模拟的。
 
 ### 搜索
 
@@ -36,6 +36,10 @@
 [HDU7405](https://acm.hdu.edu.cn/showproblem.php?pid=7405)正解是线性的dp，但是我赛时用的二分答案加二进制优化背包把这题水过去了。 [code-solution](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1004%E6%99%BA%E8%83%BD%E8%BD%A6%EF%BC%88solution%E7%9A%84%E5%81%9A%E6%B3%95%EF%BC%89.cpp)/[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1004%E6%99%BA%E8%83%BD%E8%BD%A6%EF%BC%88%E6%88%91%E7%9A%84%E5%81%9A%E6%B3%95%EF%BC%89.cpp)
 
 [HDU7409](https://acm.hdu.edu.cn/showproblem.php?pid=7409)二分答案。可以在排序后用双指针O(N)的check。我赛时没想到，就用的O(Nlog^2(N))[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1008%E5%A4%A7%E9%9B%AA%E7%90%83.cpp)
+
+### 差分
+
+[牛客小白93E](https://ac.nowcoder.com/acm/contest/82401/E) 如果刚开始考虑分块，那么注意到只需要维护一些区间的前后缀和和数的个数即可计算合并区间造成的答案。接下来发现这些需要维护的值都可以用前缀和维护。因此我们可以将求答案的过程转为上面合并操作的逆过程，计算出来即可。
 
 
 ## 数据结构
