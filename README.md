@@ -108,7 +108,9 @@
 
 ### 期望dp
 
-[牛客80743](https://ac.nowcoder.com/acm/contest/80743/F) 听说是常见的期望dp。好好研究一下。[code-my]()
+[牛客80743](https://ac.nowcoder.com/acm/contest/80743/F) 听说是常见的期望dp。好好研究一下。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E6%89%94%E9%AA%B0%E5%AD%90.cpp)
+
+
 
 ### 背包
 
@@ -117,7 +119,6 @@
 
 
 ### 决策单调性优化dp
-
 
 [luogu-P7962](https://www.luogu.com.cn/problem/P7962)，差分，决策单调性dp。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P7962%20%5BNOIP2021%5D%20%E6%96%B9%E5%B7%AE.cpp)
 
