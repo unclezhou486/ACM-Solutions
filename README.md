@@ -86,6 +86,8 @@
 
 [GYM104076J](https://codeforces.com/gym/104076/problem/J) 有点卡常[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-23/J_Skills.cpp)
 
+
+
 ### 背包
 
 [GYM103688G](https://codeforces.com/gym/103688/problem/G) 背包求方案数，思考的时候可以用断环成链的方式辅助一下？[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/train/2024-05-09/G_Chevonne_s_Necklace.cpp)
