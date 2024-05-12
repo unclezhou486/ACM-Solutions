@@ -14,11 +14,23 @@
 
 [牛客小白93D](https://ac.nowcoder.com/acm/contest/82401/D)题解说是可以运用二进制的相关知识，但是我是模拟的。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%81.cpp)
 
+[牛客81509H](https://ac.nowcoder.com/acm/contest/81509/H) 分成最少个导弹拦截的序列[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E5%90%83%E9%A5%AD%E4%BA%86.cpp)
+
+[牛客81509J](https://ac.nowcoder.com/acm/contest/81509/J) 易发现只可能取同一列[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E8%BF%99%E4%B8%8D%E6%98%AFRMQ%E9%97%AE%E9%A2%98%E6%8D%8F.cpp)
+
+[牛客81509K](https://ac.nowcoder.com/acm/contest/81509/K) 带点思维的模拟，我赛时不会，抄的题解代码。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E7%8C%9C%E7%8C%9C%E6%95%B0.cpp)
+
+
+
 ### 搜索
 
 打OI的时候很喜欢暴力加剪枝。 打ICPC的时候有点不太敢了，不太熟。
 
 [GYM104821A](https://codeforces.com/gym/104821/problem/A)将每个袋鼠可行的运动方案通过某种方式爆搜实现即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-25/Cool%2C%20It%27s%20Yesterday%20Four%20Times%20More.cpp)
+
+[牛客80743D](https://ac.nowcoder.com/acm/contest/80743/D) 一个dfs解决[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E6%A0%91%E4%B8%8A%E5%88%A0%E8%BE%B9.cpp)
+
+
 
 
 ### 位运算
@@ -40,6 +52,12 @@
 ### 差分
 
 [牛客小白93E](https://ac.nowcoder.com/acm/contest/82401/E) 如果刚开始考虑分块，那么注意到只需要维护一些区间的前后缀和和数的个数即可计算合并区间造成的答案。接下来发现这些需要维护的值都可以用前缀和维护。因此我们可以将求答案的过程转为上面合并操作的逆过程，计算出来即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E5%A5%8F%E7%BB%9D.cpp)
+
+### STL
+
+[牛客81509D](https://ac.nowcoder.com/acm/contest/81509/D) 题解说是双指针，但是我不会，我用的是map套vector的做法，感觉有点暴力，但是能过。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E4%BC%9A%E7%BC%96%E7%A8%8B%E7%9A%84%E8%80%81%E5%B8%88.cpp)
+
+
 
 
 ## 数据结构
@@ -86,7 +104,11 @@
 
 [GYM104076J](https://codeforces.com/gym/104076/problem/J) 有点卡常[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-23/J_Skills.cpp)
 
+[牛客81509C](https://ac.nowcoder.com/acm/contest/81509/C) 发现图比较小，有重复的点，所以用dp转移。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E9%9C%87%E6%83%8A_%E6%9C%80%E5%A5%BD%E7%9A%84%E8%B5%B0%E4%BD%8D%E7%AB%9F%E7%84%B6%E6%98%AF.cpp)
 
+### 期望dp
+
+[牛客80743](https://ac.nowcoder.com/acm/contest/80743/F) 听说是常见的期望dp。好好研究一下。[code-my]()
 
 ### 背包
 
@@ -129,6 +151,14 @@
 
 [牛客82401C](https://ac.nowcoder.com/acm/contest/82401/C)简单的求期望[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E8%80%81%E8%99%8E%E6%9C%BA.cpp)
 
+### 因数
+
+[牛客81509E](https://ac.nowcoder.com/acm/contest/81509/E)我用的方法是枚举因子的次数加上剪枝，题解暂时没看懂。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E4%B8%8D%E6%98%AF_%E5%93%A5%E4%BB%AC.cpp)
+
+### 组合数学
+
+[牛客80743E](https://ac.nowcoder.com/acm/contest/80743/E) 贡献法，计算每一个数字的贡献即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97%E6%B1%82%E5%92%8C.cpp)
+
 
 
 
@@ -136,3 +166,4 @@
 ## 交互
 
 [CF1713D](https://codeforces.com/contest/1713/problem/D) 带点贪心的交互？想了一会时间，感觉也蛮好玩的。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/train/2024-05-09/D_Tournament_Countdown.cpp)
+
