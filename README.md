@@ -87,8 +87,15 @@
 
 [GYM104849](https://codeforces.com/gym/104849/problem/E) 可持久化线段树加逆序对，场上思路是一下就出来了，就是我对于这个算法运用不熟练（完全没有想到要怎么用这个算法），但是队友ov_vo实力在线，听完我的思路一下就打出来了。 让我更深刻的认识到这个算法该用的地方。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/GYM104849/E_Incredibly_Cute_Penguin_Chicks.cpp)
 
-
 ## 图论
+
+### 树的直径
+
+[GYM105143E](https://codeforces.com/gym/105143/problem/E)动态求树的直径[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E6%AD%A6%E6%B1%89%E9%82%80%E8%AF%B7%E8%B5%9B/E_Boomerang.cpp)
+
+[LuoguP10238](https://www.luogu.com.cn/problem/P10238)动态求森林中树的直径[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P_10238_yLCPC_2024_F_PANDORA_PARADOXXX.cpp)
+
+
 
 ### 分层图
 
