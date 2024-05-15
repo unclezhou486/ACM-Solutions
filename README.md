@@ -95,6 +95,8 @@
 
 [LuoguP10238](https://www.luogu.com.cn/problem/P10238)动态求森林中树的直径[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P_10238_yLCPC_2024_F_PANDORA_PARADOXXX.cpp)
 
+[GYM105139I](https://codeforces.com/gym/105139/problem/I) 动态求树的直径，加上并查集的应用[code-copy-jiangly](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/2024%E6%B9%96%E5%8C%97%E7%9C%81%E8%B5%9B/I_Colorful_Tree.cpp)
+
 
 
 ### 分层图
