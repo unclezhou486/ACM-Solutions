@@ -156,7 +156,7 @@
 
 叉积我只会用来求面积，以及利用它进行顺时针或逆时针的排序。
 
-[牛客82394E](https://ac.nowcoder.com/acm/contest/82394/E) 叉积求面积，加上平行四边形中点平分对角线 [code-my]()
+[牛客82394E](https://ac.nowcoder.com/acm/contest/82394/E) 叉积求面积，加上平行四边形中点平分对角线 [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B43/%E5%B0%8F%E7%BA%A2%E7%9A%84%E5%B9%B3%E8%A1%8C%E5%9B%9B%E8%BE%B9%E5%BD%A2.cpp)
 
 [QOJ-6676](https://qoj.ac/problem/6676)叉积求面积[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-24/Computational%20Geometry.cpp) 
 
@@ -188,7 +188,9 @@
 
 [牛客80743E](https://ac.nowcoder.com/acm/contest/80743/E) 贡献法，计算每一个数字的贡献即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97%E6%B1%82%E5%92%8C.cpp)
 
-[牛客82394F](https://ac.nowcoder.com/acm/contest/82394/F) [code-my]()
+[牛客82394F](https://ac.nowcoder.com/acm/contest/82394/F) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B43/%E5%B0%8F%E7%BA%A2%E5%B0%8F%E7%B4%AB%E7%94%BB%E7%BA%BF.cpp)
+
+
 
 
 
