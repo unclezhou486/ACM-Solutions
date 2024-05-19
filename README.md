@@ -89,6 +89,12 @@
 
 ## 图论
 
+### 树上最近公共祖先（LCA）
+
+这个一般在数的题目中或多或少都会用到一点。
+
+[GYM105167A](https://codeforces.com/gym/105167/problem/A) LCA加树上前缀和
+
 ### 树的直径
 
 [GYM105143E](https://codeforces.com/gym/105143/problem/E)动态求树的直径[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E6%AD%A6%E6%B1%89%E9%82%80%E8%AF%B7%E8%B5%9B/E_Boomerang.cpp)
