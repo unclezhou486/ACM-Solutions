@@ -22,7 +22,7 @@
 
 
 
-### 搜索
+### DFS
 
 打OI的时候很喜欢暴力加剪枝。 打ICPC的时候有点不太敢了，不太熟。
 
@@ -30,7 +30,9 @@
 
 [牛客80743D](https://ac.nowcoder.com/acm/contest/80743/D) 一个dfs解决[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E6%A0%91%E4%B8%8A%E5%88%A0%E8%BE%B9.cpp)
 
+### BFS
 
+[ECNU819C](https://acm.ecnu.edu.cn/contest/819/problem/C/) bfs [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/C_%E5%AE%81%E4%BD%9C%E5%90%BE.cpp)
 
 
 ### 位运算
@@ -59,8 +61,15 @@
 
 
 
-
 ## 数据结构
+
+### 树状数组
+
+一般都是用在处理某个范围内的东西的时候用。
+
+[ECNU819D](https://acm.ecnu.edu.cn/contest/819/problem/D/) 离散化，树状数组 [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/D_%E4%BD%A0%E9%A1%BB%E5%81%BF%E8%BF%98.cpp)
+
+
 
 ### 字典树
 
@@ -117,6 +126,8 @@
 
 ### 无严格分类
 
+[ECNU819F](https://acm.ecnu.edu.cn/contest/819/problem/F/) 简单dp[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/F_%E6%BA%90%E7%9F%B3%E8%99%AB.cpp)
+
 [GYM104076J](https://codeforces.com/gym/104076/problem/J) 有点卡常[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-23/J_Skills.cpp)
 
 [牛客81509C](https://ac.nowcoder.com/acm/contest/81509/C) 发现图比较小，有重复的点，所以用dp转移。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E9%9C%87%E6%83%8A_%E6%9C%80%E5%A5%BD%E7%9A%84%E8%B5%B0%E4%BD%8D%E7%AB%9F%E7%84%B6%E6%98%AF.cpp)
@@ -144,6 +155,8 @@
 ### 叉积
 
 叉积我只会用来求面积，以及利用它进行顺时针或逆时针的排序。
+
+[牛客82394E](https://ac.nowcoder.com/acm/contest/82394/E) 叉积求面积，加上平行四边形中点平分对角线 [code-my]()
 
 [QOJ-6676](https://qoj.ac/problem/6676)叉积求面积[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-24/Computational%20Geometry.cpp) 
 
@@ -175,11 +188,17 @@
 
 [牛客80743E](https://ac.nowcoder.com/acm/contest/80743/E) 贡献法，计算每一个数字的贡献即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97%E6%B1%82%E5%92%8C.cpp)
 
-
+[牛客82394F](https://ac.nowcoder.com/acm/contest/82394/F) [code-my]()
 
 
 
 ## 交互
 
 [CF1713D](https://codeforces.com/contest/1713/problem/D) 带点贪心的交互？想了一会时间，感觉也蛮好玩的。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/train/2024-05-09/D_Tournament_Countdown.cpp)
+
+## 字符串
+
+### 回文树
+
+[ECNU819G](https://acm.ecnu.edu.cn/contest/819/problem/G/) 计算本质不同的回文子串个数，回文树板子[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/G_%E4%BF%83%E8%9E%8D%E5%85%B1%E7%AB%9E.cpp)
 
