@@ -4,6 +4,8 @@
 
 慢慢补，暂时补到表格里的第20项
 
+放在这里提醒自己自己补一下团队队友打的题[1](https://codeforces.com/gym/105053/problem/E)/[2](https://codeforces.com/gym/105053/problem/F)
+
 ## 基础算法
 
 ### 模拟
@@ -19,6 +21,18 @@
 [牛客81509J](https://ac.nowcoder.com/acm/contest/81509/J) 易发现只可能取同一列[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E8%BF%99%E4%B8%8D%E6%98%AFRMQ%E9%97%AE%E9%A2%98%E6%8D%8F.cpp)
 
 [牛客81509K](https://ac.nowcoder.com/acm/contest/81509/K) 带点思维的模拟，我赛时不会，抄的题解代码。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E7%8C%9C%E7%8C%9C%E6%95%B0.cpp)
+
+### 贪心
+
+[GYM105053K](https://codeforces.com/gym/105053/problem/K) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/GYM/GYM105053/K_KMOP.cpp)
+
+
+
+### 离散化
+
+[牛客82526D](https://ac.nowcoder.com/acm/contest/82526/D) 注意到因子个数的种类不超过70，所以分开做前缀和计算即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B44/%E5%9B%A0%E5%AD%90%E5%8C%BA%E9%97%B4.cpp)
+
+
 
 
 
@@ -120,6 +134,12 @@
 
 [HDU7408](https://acm.hdu.edu.cn/showproblem.php?pid=7408)纯的板子几乎是。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1007%E9%80%83%E7%A6%BB%E8%8A%82%E5%A5%8F%E9%9D%A2.cpp)
 
+## 网络流
+
+### 最大流
+
+[LuoguP2762](https://www.luogu.com.cn/problem/P2762)把题目转化成经典的网络流模型即可[code-my]()
+
 ## 动态规划
 
 这个说实话我不是很会，出现在这里的题目可能都是我抄的题解。
@@ -173,6 +193,10 @@
 [GYM104901A](https://codeforces.com/gym/104901/problem/A)，看着像拓号匹配的东西我就头疼[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/namo/1-25/Many%20Many%20Heads.cpp)
 
 [LuoguP3951](https://www.luogu.com.cn/problem/P3951)，打表找规律好题，当然还可以用数论做，但是我暂时只会找规律。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/train/2024-05-09/B_%E5%B0%8F%E5%87%AF%E7%9A%84%E7%96%91%E6%83%91_%E8%93%9D%E6%A1%A5%E6%9D%AF_2013_%E7%9C%81_%E4%B9%B0%E4%B8%8D%E5%88%B0%E7%9A%84%E6%95%B0%E7%9B%AE.cpp)
+
+## 构造
+
+[牛客825226E](https://ac.nowcoder.com/acm/contest/82526/E)要构造出合数，显然构造出大于2的偶数更为方便，往这方面想。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B44/%E5%B0%8F%E8%8B%AF%E7%9A%84%E6%8E%92%E5%88%97%E6%9E%84%E9%80%A0.cpp)
 
 ## 数论
 
