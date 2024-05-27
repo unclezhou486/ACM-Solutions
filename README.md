@@ -96,7 +96,7 @@
 
 [GYM104849](https://codeforces.com/gym/104849/problem/E) 可持久化线段树加逆序对，场上思路是一下就出来了，就是我对于这个算法运用不熟练（完全没有想到要怎么用这个算法），但是队友ov_vo实力在线，听完我的思路一下就打出来了。 让我更深刻的认识到这个算法该用的地方。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/GYM104849/E_Incredibly_Cute_Penguin_Chicks.cpp)
 
-[LOJ 535](https://loj.ac/p/535) 整体二分加上可持久化权值线段树[code-my]()，/或者用扫描线
+[LOJ 535](https://loj.ac/p/535) 整体二分加上可持久化权值线段树[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/LOJ/535_LibreOJ_Round_6_%E8%8A%B1%E7%81%AB.cpp)，/或者用扫描线
 
 ## 图论
 

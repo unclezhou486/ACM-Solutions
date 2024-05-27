@@ -1,3 +1,4 @@
+// 主席树加整体二分
 #include <bits/stdc++.h>
 
 using namespace std;
