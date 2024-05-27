@@ -26,15 +26,9 @@
 
 [GYM105053K](https://codeforces.com/gym/105053/problem/K) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/GYM/GYM105053/K_KMOP.cpp)
 
-
-
 ### 离散化
 
 [牛客82526D](https://ac.nowcoder.com/acm/contest/82526/D) 注意到因子个数的种类不超过70，所以分开做前缀和计算即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B44/%E5%9B%A0%E5%AD%90%E5%8C%BA%E9%97%B4.cpp)
-
-
-
-
 
 ### DFS
 
@@ -138,7 +132,7 @@
 
 ### 最大流
 
-[LuoguP2762](https://www.luogu.com.cn/problem/P2762)把题目转化成经典的网络流模型即可[code-my]()
+[LuoguP2762](https://www.luogu.com.cn/problem/P2762)把题目转化成经典的网络流模型即可[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/luogu/P_2762_%E5%A4%AA%E7%A9%BA%E9%A3%9E%E8%A1%8C%E8%AE%A1%E5%88%92%E9%97%AE%E9%A2%98.cpp)
 
 ## 动态规划
 
