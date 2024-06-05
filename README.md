@@ -51,6 +51,8 @@
 
 [CF1918C](https://codeforces.com/contest/1918/problem/C)位运算加贪心[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/CF1918/C_XOR_distance.cpp)
 
+[CF875D](https://codeforces.com/problemset/problem/875/D) 类似贡献法做。
+
 ### 二分答案
 
 一般来说，题目要求满足某种条件的最大（小）值的时候，就可以优先考虑二分答案。
