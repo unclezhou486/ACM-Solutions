@@ -38,7 +38,7 @@
 
 [牛客80743D](https://ac.nowcoder.com/acm/contest/80743/D) 一个dfs解决[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E6%A0%91%E4%B8%8A%E5%88%A0%E8%BE%B9.cpp)
 
-[CF1375G](https://codeforces.com/problemset/problem/1375/G) 把操作看成染色之后的操作，之后就是dfs。
+[CF1375G](https://codeforces.com/problemset/problem/1375/G) 把操作看成染色之后的操作，之后就是dfs。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/CF/G_Tree_Modification.cpp)
 
 
 
@@ -136,7 +136,9 @@
 
 ### 二分图
 
-[CF1592F2](https://codeforces.com/problemset/problem/1592/F2) [code-my]()
+[CF1592F2](https://codeforces.com/problemset/problem/1592/F2) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/CF/F_2_Alice_and_Recoloring_2.cpp)
+
+
 
 ## 网络流
 
@@ -236,4 +238,5 @@
 
 ### 哈希
 
-[GYM103688L](/https://codeforces.com/gym/103688/problem/L) 注意到操作的最终效果，之后用哈希判断是否相同
+[GYM103688L](/https://codeforces.com/gym/103688/problem/L) 注意到操作的最终效果，之后用哈希判断是否相同[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/CF/L_Let_s_Swap.cpp)
+
