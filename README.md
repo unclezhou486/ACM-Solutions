@@ -240,3 +240,7 @@
 
 [GYM103688L](/https://codeforces.com/gym/103688/problem/L) 注意到操作的最终效果，之后用哈希判断是否相同[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/CF/L_Let_s_Swap.cpp)
 
+[CF1979D](https://codeforces.com/contest/1979/problem/D) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/CF1979/D_Fixing_a_Binary_String.cpp)
+
+
+
