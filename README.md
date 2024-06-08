@@ -38,6 +38,10 @@
 
 [牛客80743D](https://ac.nowcoder.com/acm/contest/80743/D) 一个dfs解决[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E6%A0%91%E4%B8%8A%E5%88%A0%E8%BE%B9.cpp)
 
+[CF1375G](https://codeforces.com/problemset/problem/1375/G) 把操作看成染色之后的操作，之后就是dfs。
+
+
+
 ### BFS
 
 [ECNU819C](https://acm.ecnu.edu.cn/contest/819/problem/C/) bfs [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/C_%E5%AE%81%E4%BD%9C%E5%90%BE.cpp)
@@ -129,6 +133,10 @@
 ### 分层图
 
 [HDU7408](https://acm.hdu.edu.cn/showproblem.php?pid=7408)纯的板子几乎是。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1007%E9%80%83%E7%A6%BB%E8%8A%82%E5%A5%8F%E9%9D%A2.cpp)
+
+### 二分图
+
+[CF1592F2](https://codeforces.com/problemset/problem/1592/F2) [code-my]()
 
 ## 网络流
 
@@ -226,3 +234,6 @@
 
 [ECNU819G](https://acm.ecnu.edu.cn/contest/819/problem/G/) 计算本质不同的回文子串个数，回文树板子[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/G_%E4%BF%83%E8%9E%8D%E5%85%B1%E7%AB%9E.cpp)
 
+### 哈希
+
+[GYM103688L](/https://codeforces.com/gym/103688/problem/L) 注意到操作的最终效果，之后用哈希判断是否相同
