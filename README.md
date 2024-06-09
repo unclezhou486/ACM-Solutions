@@ -22,7 +22,9 @@
 
 [牛客81509K](https://ac.nowcoder.com/acm/contest/81509/K) 带点思维的模拟，我赛时不会，抄的题解代码。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E7%8C%9C%E7%8C%9C%E6%95%B0.cpp)
 
-[CF1980F1](https://codeforces.com/contest/1980/problem/F1) 简单模拟一下[code-my]
+[CF1980F1](https://codeforces.com/contest/1980/problem/F1) 简单模拟一下[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/CF1980/F_1_Field_Division_easy_version.cpp)
+
+
 
 ### 贪心
 
@@ -75,6 +77,8 @@
 
 [牛客81509D](https://ac.nowcoder.com/acm/contest/81509/D) 题解说是双指针，但是我不会，我用的是map套vector的做法，感觉有点暴力，但是能过。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E4%BC%9A%E7%BC%96%E7%A8%8B%E7%9A%84%E8%80%81%E5%B8%88.cpp)
 
+[CF1980E](https://codeforces.com/contest/1980/problem/E) 题解的思路好像有点难懂，我是直接把每一行排序后直接把vector用map存储。列与行同理。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/CF1980/E_Permutation_of_Rows_and_Columns.cpp)
+
 
 
 ## 数据结构
@@ -85,7 +89,7 @@
 
 [ECNU819D](https://acm.ecnu.edu.cn/contest/819/problem/D/) 离散化，树状数组 [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/D_%E4%BD%A0%E9%A1%BB%E5%81%BF%E8%BF%98.cpp)
 
-[CF1980E](https://codeforces.com/contest/1980/problem/E) 题解的思路好像有点难懂，我是直接把每一行排序后直接把vector用map存储。列与行同理。[code-my]
+
 
 ### 字典树
 
