@@ -77,7 +77,7 @@
 
 [牛客81509D](https://ac.nowcoder.com/acm/contest/81509/D) 题解说是双指针，但是我不会，我用的是map套vector的做法，感觉有点暴力，但是能过。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E4%BC%9A%E7%BC%96%E7%A8%8B%E7%9A%84%E8%80%81%E5%B8%88.cpp)
 
-[CF1980E](https://codeforces.com/contest/1980/problem/E) 题解的思路好像有点难懂，我是直接把每一行排序后直接把vector用map存储。列与行同理。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/CF1980/E_Permutation_of_Rows_and_Columns.cpp)
+[CF1980E](https://codeforces.com/contest/1980/problem/E) 题解的思路是因为每个数字都不一样，所以可以通过记录数字在哪一行判断这一行的数字在另一个矩阵中是否也是同一行。我没想到这一点，我是直接把每一行排序后直接把vector用map存储并进行比较的。列与行同理。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/CF1980/E_Permutation_of_Rows_and_Columns.cpp)
 
 
 
