@@ -22,6 +22,8 @@
 
 [牛客81509K](https://ac.nowcoder.com/acm/contest/81509/K) 带点思维的模拟，我赛时不会，抄的题解代码。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E7%8C%9C%E7%8C%9C%E6%95%B0.cpp)
 
+[CF1980F1](https://codeforces.com/contest/1980/problem/F1) 简单模拟一下[code-my]
+
 ### 贪心
 
 [GYM105053K](https://codeforces.com/gym/105053/problem/K) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/GYM/GYM105053/K_KMOP.cpp)
@@ -83,7 +85,7 @@
 
 [ECNU819D](https://acm.ecnu.edu.cn/contest/819/problem/D/) 离散化，树状数组 [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/D_%E4%BD%A0%E9%A1%BB%E5%81%BF%E8%BF%98.cpp)
 
-
+[CF1980E](https://codeforces.com/contest/1980/problem/E) 题解的思路好像有点难懂，我是直接把每一行排序后直接把vector用map存储。列与行同理。[code-my]
 
 ### 字典树
 
