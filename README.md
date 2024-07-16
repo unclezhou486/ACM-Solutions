@@ -50,6 +50,12 @@
 
 [ECNU819C](https://acm.ecnu.edu.cn/contest/819/problem/C/) bfs [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/C_%E5%AE%81%E4%BD%9C%E5%90%BE.cpp)
 
+### 拓扑排序
+
+[北京市赛H](https://vjudge.net/contest/640621#problem/H) 运用加边的方式来记录顺序，随后用拓扑排序判断。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/2024%E5%8C%97%E4%BA%AC%E5%B8%82%E8%B5%9B/H_BFS_%E5%BA%8F_0.cpp)
+
+
+
 
 ### 位运算
 
@@ -95,6 +101,10 @@
 
 [HDU7406](https://acm.hdu.edu.cn/showproblem.php?pid=7406)比较经典的01trie树的运用。再加上位运算经常要用到从高位到地位确定的一个特点。 [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1005%E6%A0%91.cpp)
 
+[北京市赛G](https://vjudge.net/contest/640621#problem/G) 典型的交互题加确认每一位上的数字。[code by ov_vo](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/2024%E5%8C%97%E4%BA%AC%E5%B8%82%E8%B5%9B/G_%E5%90%8E%E7%BB%A7.cpp)
+
+
+
 
 ### 珂朵莉树
 
@@ -125,6 +135,10 @@
 这个一般在数的题目中或多或少都会用到一点。
 
 [GYM105167A](https://codeforces.com/gym/105167/problem/A) LCA加树上前缀和
+
+[2024北京市赛D](https://vjudge.net/contest/640621#problem/D) 运用LCA判断三点是否在一条链上。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/2024%E5%8C%97%E4%BA%AC%E5%B8%82%E8%B5%9B/D_%E6%A0%91_my.cpp)
+
+
 
 ### 树的直径
 
@@ -227,6 +241,10 @@
 [牛客80743E](https://ac.nowcoder.com/acm/contest/80743/E) 贡献法，计算每一个数字的贡献即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97%E6%B1%82%E5%92%8C.cpp)
 
 [牛客82394F](https://ac.nowcoder.com/acm/contest/82394/F) [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B43/%E5%B0%8F%E7%BA%A2%E5%B0%8F%E7%B4%AB%E7%94%BB%E7%BA%BF.cpp)
+
+[牛客81596A](https://ac.nowcoder.com/acm/contest/81596/A) [code by Pia_owo](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A11/A_Bit_Common.cpp)
+
+[牛客81596B](https://ac.nowcoder.com/acm/contest/81596/B)带点容斥[code by Pia_owo](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A11/A_Bit_More_Common.py)
 
 
 
