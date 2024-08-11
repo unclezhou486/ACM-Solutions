@@ -75,6 +75,8 @@
 
 [HDU7409](https://acm.hdu.edu.cn/showproblem.php?pid=7409)二分答案。可以在排序后用双指针O(N)的check。我赛时没想到，就用的O(Nlog^2(N))[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/%E2%80%9C%E5%8D%8E%E4%B8%BA%E6%9D%AF%E2%80%9D%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A62023%E6%96%B0%E7%94%9F%E7%BC%96%E7%A8%8B%E5%A4%A7%E8%B5%9B/1008%E5%A4%A7%E9%9B%AA%E7%90%83.cpp)
 
+[CF1998C](https://codeforces.com/contest/1998/problem/C) 对于中位数进行二分答案。
+
 ### 差分
 
 [牛客小白93E](https://ac.nowcoder.com/acm/contest/82401/E) 如果刚开始考虑分块，那么注意到只需要维护一些区间的前后缀和和数的个数即可计算合并区间造成的答案。接下来发现这些需要维护的值都可以用前缀和维护。因此我们可以将求答案的过程转为上面合并操作的逆过程，计算出来即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E5%A5%8F%E7%BB%9D.cpp)
