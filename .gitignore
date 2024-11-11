@@ -1,4 +1,1 @@
-.cph/
-.vscode/
-test/
-.obsidian/
+*.cpp:test
