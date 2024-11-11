@@ -1,5 +1,1 @@
-Luogu/*.cpp:test
-Others/*.cpp:test
-Codeforces/*.cpp:test
-AtCoder/*.cpp:test
-NowCoder/*.cpp:test
+*.cpp:tests
