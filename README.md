@@ -10,7 +10,9 @@
 
 ### 模拟
 
-[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)/[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E4%BA%94%E4%B8%80(1)/Stammering_Chemists.cpp)
+[ABC379E](https://atcoder.jp/contests/abc379/tasks/abc379_e) 从个位开始模拟高精度，纯列竖式。
+
+[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)
 
 [牛客80186B](https://ac.nowcoder.com/acm/contest/80186/B)需要注意到题目中的k的范围。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E4%BA%94%E4%B8%80(1)/Coffee_Chicken.cpp)
 
@@ -59,7 +61,9 @@
 
 ### 位运算
 
-往往同时用于01字典树。
+一般都是把每一位分开计算答案。
+
+[牛客274990](https://ac.nowcoder.com/acm/problem/274990) 
 
 [abc337E](https://atcoder.jp/contests/abc337/tasks/abc337_e)注意到我们是想要让状态的数量最少。显然用0和1表示状态是最优的，所以想到使用二进制。（我没想到）[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/ABC337/E.cpp)
 
