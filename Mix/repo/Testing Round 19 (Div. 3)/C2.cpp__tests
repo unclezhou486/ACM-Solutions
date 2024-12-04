@@ -1,0 +1,1 @@
+[{"test": "abrakadabrabrakadabra\n", "correct_answers": ["YES\nabrakadabra"]}, {"test": "acacacaca\n", "correct_answers": ["YES\nacacaca"]}, {"test": "abcabc\n", "correct_answers": ["NO"]}, {"test": "abababab\n", "correct_answers": ["YES\nababab"]}, {"test": "tatbt\n", "correct_answers": ["NO"]}]

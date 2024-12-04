@@ -1,0 +1,37 @@
+[
+	{
+		"correct_answers":
+		[
+			"YES\nabrakadabra"
+		],
+		"test": "abrakadabrabrakadabra\n"
+	},
+	{
+		"correct_answers":
+		[
+			"YES\nacaca"
+		],
+		"test": "acacacaca\n"
+	},
+	{
+		"correct_answers":
+		[
+			"NO"
+		],
+		"test": "abcabc\n"
+	},
+	{
+		"correct_answers":
+		[
+			"YES\nababab"
+		],
+		"test": "abababab\n"
+	},
+	{
+		"correct_answers":
+		[
+			"NO"
+		],
+		"test": "tatbt\n"
+	}
+]

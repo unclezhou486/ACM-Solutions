@@ -1,6 +1,7 @@
 *.cpp:tests
 *.cpp_unsolved
 *.out
+.idea/
 .cph/
 Mix/test/
 Mix/train/

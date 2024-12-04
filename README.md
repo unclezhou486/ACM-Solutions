@@ -8,11 +8,15 @@
 
 ## 基础算法
 
+### 遍历
+
+[CF2008E](https://codeforces.com/problemset/problem/2008/E) 简单枚举
+
+[CF2008F](https://codeforces.com/problemset/problem/2008/F) 简单遍历
+
 ### 模拟
 
-[ABC379E](https://atcoder.jp/contests/abc379/tasks/abc379_e) 从个位开始模拟高精度，纯列竖式。
-
-[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)
+[牛客80186H](https://ac.nowcoder.com/acm/contest/80186/H)/[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E4%BA%94%E4%B8%80(1)/Stammering_Chemists.cpp)
 
 [牛客80186B](https://ac.nowcoder.com/acm/contest/80186/B)需要注意到题目中的k的范围。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E4%BA%94%E4%B8%80(1)/Coffee_Chicken.cpp)
 
@@ -61,9 +65,7 @@
 
 ### 位运算
 
-一般都是把每一位分开计算答案。
-
-[牛客274990](https://ac.nowcoder.com/acm/problem/274990) 
+往往同时用于01字典树。
 
 [abc337E](https://atcoder.jp/contests/abc337/tasks/abc337_e)注意到我们是想要让状态的数量最少。显然用0和1表示状态是最优的，所以想到使用二进制。（我没想到）[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2023/ABC337/E.cpp)
 
@@ -85,6 +87,8 @@
 
 [牛客小白93E](https://ac.nowcoder.com/acm/contest/82401/E) 如果刚开始考虑分块，那么注意到只需要维护一些区间的前后缀和和数的个数即可计算合并区间造成的答案。接下来发现这些需要维护的值都可以用前缀和维护。因此我们可以将求答案的过程转为上面合并操作的逆过程，计算出来即可。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E5%A5%8F%E7%BB%9D.cpp)
 
+
+
 ### STL
 
 [牛客81509D](https://ac.nowcoder.com/acm/contest/81509/D) 题解说是双指针，但是我不会，我用的是map套vector的做法，感觉有点暴力，但是能过。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E4%BC%9A%E7%BC%96%E7%A8%8B%E7%9A%84%E8%80%81%E5%B8%88.cpp)
@@ -101,7 +105,7 @@
 
 [ECNU819D](https://acm.ecnu.edu.cn/contest/819/problem/D/) 离散化，树状数组 [code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/ECNU%E9%82%80%E8%AF%B7%E8%B5%9B/D_%E4%BD%A0%E9%A1%BB%E5%81%BF%E8%BF%98.cpp)
 
-
+[ABC368G](https://atcoder.jp/contests/abc368/tasks/abc368_g) 注意到由于答案的限制区间内B超过1的不会很多。
 
 ### 字典树
 
@@ -135,6 +139,14 @@
 [LOJ 535](https://loj.ac/p/535) 整体二分加上可持久化权值线段树[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/LOJ/535_LibreOJ_Round_6_%E8%8A%B1%E7%81%AB.cpp)，/或者用扫描线
 
 ## 图论
+
+### 最短路
+
+[ABC369E](https://atcoder.jp/contests/abc369/tasks/abc369_e) Floyd+全排列+二进制枚举状态
+
+### 并查集
+
+[ABC372E](https://atcoder.jp/contests/abc372/tasks/abc372_e) 运用到一部分并查集
 
 ### 树上最近公共祖先（LCA）
 
@@ -186,6 +198,12 @@
 
 [牛客81509C](https://ac.nowcoder.com/acm/contest/81509/C) 发现图比较小，有重复的点，所以用dp转移。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5/%E9%9C%87%E6%83%8A_%E6%9C%80%E5%A5%BD%E7%9A%84%E8%B5%B0%E4%BD%8D%E7%AB%9F%E7%84%B6%E6%98%AF.cpp)
 
+[ABC372F](https://atcoder.jp/contests/abc372/tasks/abc372_f) 平移
+
+[ABC169D](https://atcoder.jp/contests/abc369/tasks/abc369_d) 简单dp
+
+[ABC369F](https://atcoder.jp/contests/abc369/tasks/abc369_f) 排序后就可以看成一个LIS（最长不下降子序列）
+
 ### 期望dp
 
 [牛客80743](https://ac.nowcoder.com/acm/contest/80743/F) 听说是常见的期望dp。好好研究一下。[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%91%A8%E8%B5%9B42/%E5%B0%8F%E7%BA%A2%E7%9A%84%E6%89%94%E9%AA%B0%E5%AD%90.cpp)
@@ -234,6 +252,12 @@
 
 数论我只会gcd和快速幂
 
+### gcd（最大公约数）
+
+[CF2008G](https://codeforces.com/problemset/problem/2008/G) 注意到题目的操作与更相减损法求gcd相同，所以可以把数组最终形态用gcd表示。
+
+
+
 ### 乘法逆元
 
 [牛客82401C](https://ac.nowcoder.com/acm/contest/82401/C)简单的求期望[code-my](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD93/%E8%80%81%E8%99%8E%E6%9C%BA.cpp)
@@ -252,9 +276,11 @@
 
 [牛客81596B](https://ac.nowcoder.com/acm/contest/81596/B)带点容斥[code by Pia_owo](https://github.com/unclezhou486/ACM-Solutions/blob/main/2024%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A1/%E7%89%9B%E5%AE%A2%E5%A4%9A%E6%A0%A11/A_Bit_More_Common.py)
 
+### 调和级数
 
+[牛客90072E](https://ac.nowcoder.com/acm/contest/90072/E) 用调和级数的方法，标记一下哪些数是无法组成的。
 
-
+[CF2008H](https://codeforces.com/problemset/problem/2008/H) 二分答案，加调和级数，加前缀和
 
 ## 交互
 

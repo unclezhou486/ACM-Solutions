@@ -1,0 +1,23 @@
+[
+	{
+		"correct_answers":
+		[
+			"3\nacbe\nacbc\nbcbc"
+		],
+		"test": "adbe\nbcbc\n"
+	},
+	{
+		"correct_answers":
+		[
+			"0"
+		],
+		"test": "abcde\nabcde\n"
+	},
+	{
+		"correct_answers":
+		[
+			"8\naawgebrw\naargebrw\naarbebrw\naarbebnw\naarbebnq\naarbeenq\naarbrenq\noarbrenq"
+		],
+		"test": "afwgebrw\noarbrenq\n"
+	}
+]
