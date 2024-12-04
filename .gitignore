@@ -1,6 +1,7 @@
 *.cpp:tests
 *.cpp_unsolved
 *.out
+*.exe
 .idea/
 .obsidian/
 .cph/
