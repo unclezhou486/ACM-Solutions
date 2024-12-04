@@ -2,6 +2,7 @@
 *.cpp_unsolved
 *.out
 .idea/
+.obsidian/
 .cph/
 Mix/test/
 Mix/train/
