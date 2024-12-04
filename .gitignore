@@ -1,6 +1,9 @@
 *.cpp:tests
 *.cpp_unsolved
 *.out
+.cph/
 Mix/test/
 Mix/train/
 .vscode/
+test/
+train/
