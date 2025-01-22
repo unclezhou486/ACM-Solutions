@@ -1,5 +1,6 @@
 *.cpp:tests
 *.cpp_unsolved
+*.cpp__tests
 *.out
 *.exe
 .idea/
