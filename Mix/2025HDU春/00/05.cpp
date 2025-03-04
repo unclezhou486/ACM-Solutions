@@ -56,17 +56,6 @@ void solve(){
 		}
 		ans=(ans*13331+l+1)%998244353;
 	}
-	// int id=1;
-	// for(int i=n;i>=0;i--){
-	// 	while(id<=q&&que[id].x<dp[i]){
-	// 		ans[que[id].id]=i+1;
-	// 		id+=1;
-	// 	}
-	// }
-	// long long anss=0;
-	// for(int i=1;i<=q;i++){
-	// 	anss=(anss*13331+ans[i])%998244353;
-	// }
 	cout<<ans<<'\n';
 }
 
