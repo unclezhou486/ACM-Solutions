@@ -3,13 +3,6 @@
 
 using namespace std;
 
-struct node{
-	int id,x;
-};
-
-bool cmp(node a,node b){
-	return a.x<b.x;
-}
 
 void solve(){
 	int n,m,q;
@@ -21,14 +14,6 @@ void solve(){
 		cin>>a[i];
 		vec[a[i]%m].push_back(a[i]/m);
 	}
-	cin>>q;
-	vector<long long> ans(q+10);
-	vector<node> que(q+10);
-	for(int i=1;i<=q;i++){
-		cin>>que[i].x;
-		que[i].id=i;
-	}
-	sort(que.begin()+1,que.begin()+1+q,cmp);
 	dp[n]=0;
 	for(int i=0;i<m;i++){
 		int nn=vec[i].size();
@@ -58,18 +43,31 @@ void solve(){
 			}
 		}
 	}
-	int id=1;
-	for(int i=n;i>=0;i--){
-		while(id<=q&&que[id].x<dp[i]){
-			ans[que[id].id]=i+1;
-			id+=1;
-		}
-	}
-	long long anss=0;
+	long long ans=0;
+	cin>>q;
 	for(int i=1;i<=q;i++){
-		anss=(anss*13331+ans[i])%998244353;
+		long long x;
+		cin>>x;
+		int l=0,r=n;
+		while(l<r){
+			int mid=(l+r+1)>>1;
+			if(dp[mid]>x) l=mid;
+			else r=mid-1;
+		}
+		ans=(ans*13331+l+1)%998244353;
 	}
-	cout<<anss<<'\n';
+	// int id=1;
+	// for(int i=n;i>=0;i--){
+	// 	while(id<=q&&que[id].x<dp[i]){
+	// 		ans[que[id].id]=i+1;
+	// 		id+=1;
+	// 	}
+	// }
+	// long long anss=0;
+	// for(int i=1;i<=q;i++){
+	// 	anss=(anss*13331+ans[i])%998244353;
+	// }
+	cout<<ans<<'\n';
 }
 
 signed main(){
