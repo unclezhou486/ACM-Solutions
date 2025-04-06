@@ -11,3 +11,4 @@ Mix/train/
 .vscode/
 test/
 train/
+*.in
