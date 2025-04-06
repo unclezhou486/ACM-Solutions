@@ -3,6 +3,7 @@
 *.cpp__tests
 *.out
 *.exe
+*.in
 .idea/
 .obsidian/
 .cph/
@@ -11,4 +12,4 @@ Mix/train/
 .vscode/
 test/
 train/
-*.in
+
