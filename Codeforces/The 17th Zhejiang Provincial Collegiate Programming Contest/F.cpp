@@ -24,13 +24,18 @@ void solve(){
 		cin>>w2[i];
 	}
 	cin>>b2;
+	if(b1*b2<0){
+		for(int j=1;j<=n;j++){
+			cout<<0<<" \n"[j==n];
+		}
+		return;
+	}
 	for(int i=1;i<=n;i++){
 		if(w1[i]*w2[i]==0){
-			if(b1*b2<0){
+			if(w1[i]||w2[i]){
 				for(int j=1;j<=n;j++){
-					cout<<0<<" \n"[j==n];
+					
 				}
-				return;
 			}
 		}
 		else if(w1[i]*w2[i]>0){
