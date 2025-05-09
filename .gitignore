@@ -4,6 +4,7 @@
 *.out
 *.exe
 *.in
+*.ans
 .idea/
 .obsidian/
 .cph/
@@ -12,5 +13,5 @@ Mix/train/
 .vscode/
 test/
 train/
-*.ans
+
 
