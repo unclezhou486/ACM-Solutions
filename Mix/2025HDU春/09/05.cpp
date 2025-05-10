@@ -50,12 +50,7 @@ void solve(){
 					continue;
 				}
 			}
-			if(i+1<n){
-				if(str[i+1]=='k'||str[i+1]=='t'||str[i+1]=='p'||str[i+1]=='s'){
-					res+=1;
-					continue;
-				}
-			}
+			res+=1;
 		}
 		return res;
 	};
