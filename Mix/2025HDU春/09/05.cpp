@@ -15,6 +15,7 @@ void solve(){
 			se.insert(a+b);
 		}
 	}
+	se.insert("nn");
 	auto check = [&](string str) -> int{
 		int res=0;
 		int n=str.size();
@@ -38,15 +39,6 @@ void solve(){
 				if(se.count(ress)){
 					res+=1;
 					i+=2;
-					continue;
-				}
-			}
-			if(i+1<n){
-				ress="";
-				ress=ress+str[i]+str[i+1];
-				if(ress=="nn"){
-					res+=1;
-					i+=1;
 					continue;
 				}
 			}
