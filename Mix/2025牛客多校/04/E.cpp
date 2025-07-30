@@ -143,15 +143,20 @@ struct segmentTree{
 		}
 		return res;
 	}
-}seg;
+};
+
+constexpr int N=5e5+1;
+int dep[N],f[N],top[N],dfn[N],siz[N],son[N];
 
 void solve(){
 	int n,q;
 	cin>>n>>q;
 	vector<int> a(n+1);
 	vector<vector<int> > adj(n+1);
+	// vector<int> dep(n+1),f(n+1),top(n+1),dfn(n+1),siz(n+1),son(n+1,-1);
 	for(int i=1;i<=n;i++){
 		cin>>a[i];
+		son[i]=-1;
 	}
 	for(int i=1;i<n;i++){
 		int u,v;
@@ -159,7 +164,7 @@ void solve(){
 		adj[u].push_back(v);
 		adj[v].push_back(u);
 	}
-	vector<int> dep(n+1),f(n+1),top(n+1),dfn(n+1),siz(n+1),son(n+1,-1);
+	segmentTree seg;
 	int tot=0;
 	auto dfs1=[&](auto self,int x,int fa) -> void{
 		dep[x]=dep[fa]+1;
